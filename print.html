@@ -32,7 +32,12 @@
       </nav>
     </section>
 
-    <img class='image featured' src='images/hlyp-6-7-vertical.png'>
+    <!-- 1680px, 1280px, 980px, 736px -->
+    <picture>
+      <source media="(min-width: 736px)" srcset="images/hylp-6-7-vertical.png" />
+      <source media="(max-width: 1000px)" srcset="images/hylp-6-7-vertical-mobile.png" />
+      <img class = 'image featured' src="images/hylp-6-7-vertical.png" />
+    </picture>
   </div>
 
   <!-- Scripts -->
