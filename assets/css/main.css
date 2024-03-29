@@ -2328,11 +2328,11 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				padding: 8em 0;
+				/* padding: 8em 0; */
 			}
 
 				#banner > .container {
-					padding: 0 4em;
+					/* padding: 0 4em; */
 				}
 
 					#banner > .container br {
@@ -2730,5 +2730,16 @@ input, select, textarea {
 					margin-left: 0;
 					border-left: 0;
 				}
+
+	}
+
+
+	#namepic{
+		position: absolute;
+		z-index: 2;
+		bottom:20%;
+		left:5%;
+		width:30%;
+		/* height */
 
 	}
