@@ -1514,7 +1514,7 @@ input, select, textarea {
 		}
 			.image.featured.long {
 				/* height: 100%; */
-				width:auto;
+				width:4096px;
 				overflow-x: scroll;
 				white-space: nowrap;
 			}
